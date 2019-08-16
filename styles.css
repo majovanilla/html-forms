@@ -49,7 +49,6 @@ table {
 
 .page-width{
 	width: 100%;
-	display: inline-flex;
 }
 
 .center-vertically {
@@ -75,7 +74,9 @@ table {
 .display-block{
 	display: block;
 }
-
+.display-inline{
+	display: inline;
+}
 
 /* HEADER */
 
@@ -90,12 +91,29 @@ header{
 	background-color: #eceef1;
 }
 
+/* Form Header*/
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+li a{
+	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#logo2{
+
+}
+
 /* FORM */
 
 .form{
 	width: 380px;
 	height: 800px;
-	border: solid 1px #8d9096;
+	border: solid 1px rgb(199, 199, 199);
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;
