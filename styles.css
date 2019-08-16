@@ -43,10 +43,13 @@ table {
 	border-spacing: 0;
 }
 
+/*------------------------------------*/
+
 /* Page Generals */
 
 .page-width{
 	width: 100%;
+	display: inline-flex;
 }
 
 .center-vertically {
@@ -55,15 +58,31 @@ table {
 }
 
 .center-horizontally{
-	margin: 0;
+	margin: auto;
 }
 
 .div-align-right{
 	text-align: right;
 	padding-right: 10px;
 }
-.elements-display-inline{
-	display: inline;
+
+.div-align-center{
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+}
+
+.display-block{
+	display: block;
+}
+
+
+/* HEADER */
+
+header{
+	height: 60px;
+	padding:10px;
+	display: inline-flex;
 }
 /* Body */
 
@@ -71,9 +90,14 @@ table {
 	background-color: #eceef1;
 }
 
-/* HEADER */
+/* FORM */
 
-header{
-	height: 60px;
-	padding:10px;
+.form{
+	width: 380px;
+	height: 800px;
+	border: solid 1px #8d9096;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 10px auto;
 }
