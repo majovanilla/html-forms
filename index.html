@@ -11,67 +11,70 @@
             <h4><a href="https://intuit.me/33At8nx">I forgot my User ID or Password</a> </h4>
         </div>
         <div class="div-align-right elements-display-block">
-            <button type="submit">Sign In</button>
+            <button type="submit" class="center-horizontally">Sign In</button>
         </div>
     </header>
     <main >
         <div id="main-logo" class="page-width">
-            <img src="img/logo1.svg" alt="log1" width= "200px" class="center-horizontally display-block">
+            <img src="img/logo1.svg" alt="log1" class="center-horizontally display-block large-logo">
         </div>
         <div id = "little-logos" class="page-width div-align-center" >
 			<ul>
 				<li  id="logo2"  class="display-inline">
 					<a href="https://www.mint.com/">
-						<img src="img/logo2.svg" alt="logo3" width= "20px" class="display-inline">  
+						<img src="img/logo2.svg" alt="logo3" class="display-inline small-logo">  
 					</a>
 				</li>
 				<li><a href="https://www.mint.com/">mint</a></li>
 				<li id="logo3"> 
 					<a href="https://quickbooks.intuit.com/">
-						<img src="img/logo3.svg" alt="logo3" width= "20px" class="display-inline">
+						<img src="img/logo3.svg" alt="logo3" class="display-inline small-logo">
 					</a>
 				</li>
 				<li><a href="https://quickbooks.intuit.com/">quickbooks</a></li>
 				<li id="logo4"> 
 					<a href="https://turbotax.intuit.com/">
-						<img src="img/logo4.svg" alt="logo4" width= "20px" class="display-inline">
+						<img src="img/logo4.svg" alt="logo4" class="display-inline small-logo">
 					</a>
 				</li>
 				<li><a href="https://turbotax.intuit.com/">turbobox</a></li>
 			</ul>
-		</div>
-        <form action="/my-form-page" method="post" class="form form-border center-horizontally">
-            <fieldset class="div-align-center">
-                <div>
-                    <h1 class="padding10px">Create an Intuit account</h1>
-                    <h3>One account for everything Intuit, including Mint.</h3>
-                    <div class="page-width div-align-center">
-                        <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+        </div>
+        
+        <div class="page-width">
+            <form action="/my-form-page" method="post" class="form padding20 form-border center-horizontally">
+                <fieldset class="div-align-center">
+                    <div>
+                        <h1 class="padding20">Create an Intuit account</h1>
+                        <h3>One account for everything Intuit, including Mint.</h3>
+                        <div class="page-width div-align-center">
+                            <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a>
+                        </div>
                     </div>
-                </div>
-                <label for="email-address" class="form-title">
-                    Email address
-                    <input id = "email-address" class="form-border" type="email" required>
-                </label>
-                <label for="phone" class="form-title">
-                    Phone (recommended)
-                    <input type="tel" id="phone" class="form-border">                    
-                </label>
-				<h5>Standard call, messaging or data rates may apply.</h5>
-                <label for="password" class="form-title">
-                    Password
-                    <input id="password" class="form-border" type="password">
-                </label>
-                <button id="create-button" class="div-align-center" type="submit">Create Account</button>
-                <div>
-                    <h4>By clicking Create account, you agree to our
-                        <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement.</a></h4>
-                </div>
-            </fieldset>
-        </form>
-        <div id="captcha">
-            <h6>Invisible reCAPTCHA by Google <a href="https://www.mint.com/terms">Privacy Policy</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Terms of Use</a></h6> 
-        </div> 
+                    <label for="email-address" class="form-title">
+                        Email address
+                        <input id = "email-address" class="form-border" type="email" required>
+                    </label>
+                    <label for="phone" class="form-title">
+                        Phone (recommended)
+                        <input type="tel" id="phone" class="form-border">                    
+                    </label>
+                    <h5>Standard call, messaging or data rates may apply.</h5>
+                    <label for="password" class="form-title">
+                        Password
+                        <input id="password" class="form-border" type="password">
+                    </label>
+                    <button id="create-button" class="div-align-center" type="submit">Create Account</button>
+                    <div>
+                        <h4>By clicking Create account, you agree to our
+                            <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement.</a></h4>
+                    </div>
+                </fieldset>
+            </form>  
+            <div id="captcha" class="form padding20 form-border">
+                <h6>Invisible reCAPTCHA by Google <a href="https://www.mint.com/terms">Privacy Policy</a> and <a href="https://security.intuit.com/privacy">Terms of Use</a></h6> 
+            </div>  
+        </div>
     </main>
     <footer>
         <h4><a href="http://about.intuit.com/legal/">Legal</a> 
