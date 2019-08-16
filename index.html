@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <title>HTML Form</title>
 </head>
-<body>
+<body class="body-color" >
     <header>
-        <div id= "login-problems">
-            <h4>Already have an Intuit account?
-            <br>
-            <a href="https://intuit.me/33At8nx">I forgot my User ID or Password</a> </h4>
+        <div id= "login-problems" class="div-align-right">
+            <h4>Already have an Intuit account?</h4>
+            <h4><a href="https://intuit.me/33At8nx">I forgot my User ID or Password</a> </h4>
         </div>
-        <div>
+        <div class="div-align-right">
             <button type="submit">Sign In</button>
         </div>
     </header>
-    <div id="content">
-        <div id="main-logo">
+    <main >
+        <div id="main-logo" >
             <img src="img/logo1.svg" alt="log1" width= "200px">
         </div>
-        <div id = "little-logos">
+        <div id = "little-logos" >
             <img src="img/logo2.svg" alt="logo2" width= "20px">
             <img src="img/logo3.svg" alt="logo3" width= "20px">
             <img src="img/logo4.svg" alt="logo4" width= "20px">
@@ -37,9 +36,9 @@
                 </label>
                 <label for="phone">
                     Phone (recommended)
-                    <input type="tel" id="phone">
-                    <h5>Standard call, messaging or data rates may apply.</h5>
+                    <input type="tel" id="phone">                    
                 </label>
+				<h5>Standard call, messaging or data rates may apply.</h5>
                 <label for="password">
                     Password
                     <input id="password" type="password">
@@ -52,9 +51,9 @@
             </fieldset>
         </form>
         <div id="captcha">
-            <h6>Invisible reCAPTCHA by Google <a href="https://www.mint.com/terms">Privacy Policy</a> and have read and acknowledge our <a href=""https://security.intuit.com/privacy">Terms of Use</a></h6> 
+            <h6>Invisible reCAPTCHA by Google <a href="https://www.mint.com/terms">Privacy Policy</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Terms of Use</a></h6> 
         </div> 
-    </div>
+    </main>
     <footer>
         <h4><a href="http://about.intuit.com/legal/">Legal</a> 
             <a href="https://security.intuit.com/privacy/">Privacy</a>
@@ -63,6 +62,6 @@
         <h4>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</h4>
         <h4>Terms and conditions, features, support, pricing, and service options subject to change without notice.</h4>
     </footer>
-    
+	<link rel="stylesheet" href="styles.css">    
 </body>
 </html>
