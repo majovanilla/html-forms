@@ -67,7 +67,6 @@ table {
 
 .div-align-center{
 	text-align: center;
-	padding: 10px;
 	margin: auto;
 }
 
@@ -77,6 +76,62 @@ table {
 .display-inline{
 	display: inline;
 }
+
+.padding10px{
+	padding: 10px;
+}
+
+.form-title,
+input{
+	display: block;
+	width: 95%;
+	padding-top: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: #4c4c4c;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #4c4c4c;
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+form a:link{
+	text-align: center;
+
+}
+
+.form-link,
+form a:link,
+form a:hover,
+form a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #0077c5;
+	text-decoration: none;
+}
+
+form a:hover{
+	text-decoration: underline;
+}
+
+
 
 /* HEADER */
 
@@ -94,14 +149,27 @@ header{
 /* Form Header*/
 ul li{
 	list-style-type: none;
-	display: inline;
+	display: inline-block;
+}
+
+ul {
+	display: flex;  
+	align-items: center;  
+	justify-content: center;
 }
 
 li a{
-	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Helvetica;
     font-weight: normal;
     font-size: 12px;
-    line-height: 1.5;
+	line-height: 1.5;
+	text-decoration: none;
+	color: #757575;
+	padding-right: 5px;
+}
+
+a:visited{
+	color: #757575;
 }
 
 #logo2{
@@ -117,5 +185,5 @@ li a{
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;
-	margin: 10px auto;
+	margin: auto;
 }
