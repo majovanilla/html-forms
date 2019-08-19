@@ -27,7 +27,7 @@ body {
   line-height: 1;
   background: #eceef1;
 }
- 
+
 ol, ul {
   list-style: none;
 }
@@ -140,21 +140,6 @@ form a:link {
   text-align: center;
 }
 
-.form-link,
-form a:link,
-form a:hover,
-form a:visited {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  text-align: center;
-  color: #0077c5;
-  text-decoration: none;
-}
-
-form a:hover {
-  text-decoration: underline;
-}
-
 /* HEADER */
 
 header {
@@ -263,20 +248,19 @@ footer h4 {
   text-align: center;
 }
 
-
 li a {
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 1.5;
-	text-decoration: none;
-	color: #757575;
-	padding-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #757575;
+  padding-right: 5px;
 }
 
+footer a:visited,
 footer a:link,
-footer a:hover,
-footer a:visited {
+footer a:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: center;
@@ -286,5 +270,20 @@ footer a:visited {
 }
 
 footer a:hover {
+  text-decoration: underline;
+}
+
+.form-link,
+form a:link,
+form a:hover,
+form a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: #0077c5;
+  text-decoration: none;
+}
+
+form a:hover {
   text-decoration: underline;
 }
