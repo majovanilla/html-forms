@@ -14,7 +14,6 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -27,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   background: #eceef1;
-} 
+}
  
 ol, ul {
   list-style: none;
@@ -47,8 +46,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/*------------------------------------*/
 
 /* Page Generals */
 
@@ -171,26 +168,17 @@ header {
   background-color: #eceef1;
 }
 
-/* Form Header*/
+/* Form Header */
+
 ul li {
   list-style-type: none;
   display: inline-block;
 }
 
 ul {
-  display: flex;  
-  align-items: center;  
+  display: flex;
+  align-items: center;
   justify-content: center;
-}
-
-li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.5;
-  text-decoration: none;
-  color: #757575;
-  padding-right: 5px;
 }
 
 a:visited {
@@ -223,7 +211,6 @@ a:visited {
   width: 380px;
   height: auto;
   background-color: #eceef1;
-  padding: 0;
   border-top: none;
   padding: 20px;
   border-bottom: solid 1px rgb(199, 199, 199);
@@ -236,7 +223,7 @@ a:visited {
 
 #password {
   background-image: url(img/lock.png);
-  background-position: right;  
+  background-position: right;
   background-repeat: no-repeat;
   background-size: 25px;
   background-position-x: 99%;
@@ -245,11 +232,11 @@ a:visited {
 button {
   background-color: #167ccc;
   font-size: 15px;
-  border-radius:5px;
+  border-radius: 5px;
   color: white;
   border-color: black 10px;
   background-image: url(img/lock2.png);
-  background-position: left;  
+  background-position: left;
   background-position-x: 15%;
   background-repeat: no-repeat;
   background-size: 10px;
@@ -274,6 +261,17 @@ footer {
 footer h4 {
   font-style: normal;
   text-align: center;
+}
+
+
+li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.5;
+	text-decoration: none;
+	color: #757575;
+	padding-right: 5px;
 }
 
 footer a:link,
