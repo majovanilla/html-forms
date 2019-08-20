@@ -47,10 +47,20 @@ table {
   border-spacing: 0;
 }
 
+li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #757575;
+  padding-right: 5px;
+}
+
 /* Page Generals */
 
 .page-width {
-  width: 100%;
+  width: 95%;
 }
 
 .center-vertically {
@@ -136,6 +146,10 @@ h6 {
   color: #8d9096;
 }
 
+a:visited {
+  color: #757575;
+}
+
 form a:link {
   text-align: center;
 }
@@ -164,10 +178,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-a:visited {
-  color: #757575;
 }
 
 .small-logo {
@@ -246,16 +256,6 @@ footer {
 footer h4 {
   font-style: normal;
   text-align: center;
-}
-
-li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.5;
-  text-decoration: none;
-  color: #757575;
-  padding-right: 5px;
 }
 
 footer a:visited,

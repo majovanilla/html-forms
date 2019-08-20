@@ -1,17 +1,30 @@
-# html-forms
-This is a project for the Sign up form of a website called intuit (intuit.com)
+# HTML-FORMS 
+
+This is a project for the Sign up form of a website called intuit 
+This is only a prototype of the Sign up page so its not functional
+
+## Sources
+
+We used the original intuit sign up page as a reference https://accounts.intuit.com
+
 It is part of the Odin Project Curriculum "PROJECT: HTML FORMS " (you can find the complete project here:(https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
-We used the original intuit sign up page as a reference using only HTML and CSS.
+This project it's also part of the Microverse Curriculum. www.microverse.org
 
-This project it's also part of the Microverse Curriculum.
-www.microverse.org
+## Live Version
 
-We cloned The Odin Project using:
+You can see it here after we get it approved to merge to the master: https://euqueme.github.io/html-forms/
+
+## Built With
 
 HTML
 CSS
+Linters
+Stickler
+VSCode
+Notepad++
 
-Authors:
+## Authors
+
 @euqueme
 @majovainilla
