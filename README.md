@@ -13,7 +13,7 @@ This project it's also part of the Microverse Curriculum. www.microverse.org
 
 ## Live Version
 
-You can see it here after we get it approved to merge to the master: https://euqueme.github.io/html-forms/
+You can see it here: https://euqueme.github.io/html-forms/
 
 ## Built With
 
